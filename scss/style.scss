@@ -1,0 +1,34 @@
+$yellow: yellow;
+$white: white;
+$foto: 'img/foto1.jpg';
+
+@mixin botao($corTexto, $corFundo) {
+    width: 140px;
+    height: 28px;
+    text-align: center;
+    color: $corTexto;
+    background-color: $corFundo;
+}
+
+.pera{
+    color: $yellow;
+    .dentro {
+        color: $white;
+    }
+}
+
+.brasilia{
+    color: $yellow;
+    .capo{
+        color: $white;
+
+        .btn {
+            @include botao($white, $yellow);
+        }
+    }
+}
+
+p{
+    background-image: url($foto);
+
+}

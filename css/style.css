@@ -1,0 +1,27 @@
+.pera {
+  color: yellow;
+}
+
+.pera .dentro {
+  color: white;
+}
+
+.brasilia {
+  color: yellow;
+}
+
+.brasilia .capo {
+  color: white;
+}
+
+.brasilia .capo .btn {
+  width: 140px;
+  height: 28px;
+  text-align: center;
+  color: white;
+  background-color: yellow;
+}
+
+p {
+  background-image: url("img/foto1.jpg");
+}
